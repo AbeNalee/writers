@@ -1,0 +1,19 @@
+.footer-one .footer-widget {
+    padding-top: 10px;
+    padding-bottom: 120px;
+}
+.footer-one .footer-copyright .copyright {
+    padding-bottom: 23px;
+    padding-top: 13px;
+}
+ul, ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.footer-one .footer-widget .footer-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #a7a6a6;
+}
