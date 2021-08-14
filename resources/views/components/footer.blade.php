@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-4 col-sm-12">
                     <div class="footer-support ">
-                        <span class="number">+8801234567890</span>
+                        <span class="number">+1 (563) 278-1348</span>
                         <span class="mail">info@classifiedwriters.com</span>
                     </div>
                 </div>
