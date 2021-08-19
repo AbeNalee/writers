@@ -3227,3 +3227,5 @@ p.form-message.success, p.form-message.error {
     background-color: #0067f4; }
 
 /*# sourceMappingURL=style.css.map */
+.bg-image{position:relative;overflow:hidden;background-repeat:no-repeat;background-size:cover;background-position:50%}
+.card .bg-image{border-top-left-radius:.5rem;border-top-right-radius:.5rem}
