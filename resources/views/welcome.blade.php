@@ -32,6 +32,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/added.css">
 
+    <meta name="description" content="Classified Writers is your number one place to get all your writing needs sorted out. Writing done by classified writers provides the best quality work">
+
 </head>
 
 <body>
