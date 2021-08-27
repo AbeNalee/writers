@@ -113,7 +113,7 @@
 
 @include('components.testimonials')
 
-
+@include('components.contact-us')
 
 <!--====== FOOTER PART START ======-->
 
