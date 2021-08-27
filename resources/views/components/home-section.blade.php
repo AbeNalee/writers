@@ -5,6 +5,8 @@
             <li data-target="#carouselThree" data-slide-to="0" class="active"></li>
             <li data-target="#carouselThree" data-slide-to="1"></li>
             <li data-target="#carouselThree" data-slide-to="2"></li>
+            <li data-target="#carouselFour" data-slide-to="3"></li>
+            <li data-target="#carouselFive" data-slide-to="4"></li>
         </ol>
 
         <div class="carousel-inner">
@@ -13,8 +15,8 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="slider-content">
-                                <h1 class="title">Sample Text Slide 1</h1>
-                                <p class="text">Lorem Ipsum dolor sit amet</p>
+                                <h1 class="title">Plagiarism Free</h1>
+{{--                                <p class="text">Lorem Ipsum dolor sit amet</p>--}}
                                 <ul class="slider-btn rounded-buttons">
                                     <li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>
                                 </ul>
@@ -34,8 +36,8 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="slider-content">
-                                <h1 class="title">Sample Text Slide 2</h1>
-                                <p class="text">Lorem Ipsum dolor sit amet</p>
+                                <h1 class="title">Quality and Uniqueness</h1>
+{{--                                <p class="text">Lorem Ipsum dolor sit amet</p>--}}
                                 <ul class="slider-btn rounded-buttons">
                                     <li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>
                                 </ul>
@@ -55,10 +57,52 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="slider-content">
-                                <h1 class="title">Sample Text Slide 3</h1>
-                                <p class="text">Lorem Ipsum dolor sit amet</p>
+                                <h1 class="title">Value for Money</h1>
+{{--                                <p class="text">Lorem Ipsum dolor sit amet</p>--}}
                                 <ul class="slider-btn rounded-buttons">
                                     <li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>
+                                </ul>
+                            </div> <!-- slider-content -->
+                        </div>
+                    </div> <!-- row -->
+                </div> <!-- container -->
+                <div class="slider-image-box d-none d-lg-flex align-items-end">
+                    <div class="slider-image">
+                        <img src="assets/images/slider/3.png" alt="Hero">
+                    </div> <!-- slider-image -->
+                </div> <!-- slider-image box -->
+            </div> <!-- carousel-item -->
+
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="slider-content">
+                                <h1 class="title">Timely Delivery</h1>
+{{--                                <p class="text">Lorem Ipsum dolor sit amet</p>--}}
+                                <ul class="slider-btn rounded-buttons">
+                                    <li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>
+                                </ul>
+                            </div> <!-- slider-content -->
+                        </div>
+                    </div> <!-- row -->
+                </div> <!-- container -->
+                <div class="slider-image-box d-none d-lg-flex align-items-end">
+                    <div class="slider-image">
+                        <img src="assets/images/slider/3.png" alt="Hero">
+                    </div> <!-- slider-image -->
+                </div> <!-- slider-image box -->
+            </div> <!-- carousel-item -->
+
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="slider-content">
+                                <h1 class="title">Confidentiality & NDA</h1>
+{{--                                <p class="text">Lorem Ipsum dolor sit amet</p>--}}
+                                <ul class="slider-btn rounded-buttons">
+                                    <li><a class="main-btn rounded-one" href="mail-to:">GET STARTED</a></li>
                                 </ul>
                             </div> <!-- slider-content -->
                         </div>
