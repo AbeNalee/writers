@@ -41,16 +41,20 @@
             </div>
         @endif
 
-        <div class="custom-file">
+        <div class="custom-file mb-4">
             <input type="file" name="file" class="custom-file-input" id="chooseFile">
             <label class="custom-file-label" for="chooseFile">Select file</label>
 
-            <input type="text" name="tag" class="form-control mt-5" id="enterTag" placeholder="Enter Tag">
+            <select name="tag" id="tag" class="mt-5 custom-select">
+                @foreach(config('writers.service-tags') as $service)
+                    <option value="{{ $service }}">{{ $service }}</option>
+                @endforeach
+            </select>
         </div>
 
 
         <button type="submit" name="submit" class="btn btn-primary btn-block mt-4">
-            Upload Files
+            Upload File
         </button>
     </form>
 </div>

@@ -5,16 +5,16 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class File extends Model
+class FileImage extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'name', 'path', 'tag'
+        'file_id', 'path', 'name'
     ];
 
-    public function image()
+    public function file()
     {
-        return $this->hasOne(FileImage::class);
+        return $this->belongsTo(File::class);
     }
 }
