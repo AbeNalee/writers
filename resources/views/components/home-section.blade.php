@@ -18,7 +18,7 @@
                                 <h1 class="title">Plagiarism Free</h1>
 {{--                                <p class="text">Lorem Ipsum dolor sit amet</p>--}}
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>
+                                    <li><a class="main-btn rounded-one page-scroll" href="#contact">GET STARTED</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -39,7 +39,7 @@
                                 <h1 class="title">Quality and Uniqueness</h1>
 {{--                                <p class="text">Lorem Ipsum dolor sit amet</p>--}}
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>
+                                    <li><a class="main-btn rounded-one page-scroll" href="#contact">GET STARTED</a></li>
                                 </ul>
                             </div> <!-- slider-content -->
                         </div>
@@ -60,7 +60,7 @@
                                 <h1 class="title">Value for Money</h1>
 {{--                                <p class="text">Lorem Ipsum dolor sit amet</p>--}}
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>
+                                    <li><a class="main-btn rounded-one page-scroll" href="#contact">GET STARTED</a></li>
                                 </ul>
                             </div> <!-- slider-content -->
                         </div>
@@ -81,7 +81,7 @@
                                 <h1 class="title">Timely Delivery</h1>
 {{--                                <p class="text">Lorem Ipsum dolor sit amet</p>--}}
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>
+                                    <li><a class="main-btn rounded-one page-scroll" href="#contact">GET STARTED</a></li>
                                 </ul>
                             </div> <!-- slider-content -->
                         </div>
@@ -102,7 +102,7 @@
                                 <h1 class="title">Confidentiality & NDA</h1>
 {{--                                <p class="text">Lorem Ipsum dolor sit amet</p>--}}
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a class="main-btn rounded-one" href="mail-to:">GET STARTED</a></li>
+                                    <li><a class="main-btn rounded-one page-scroll" href="#contact">GET STARTED</a></li>
                                 </ul>
                             </div> <!-- slider-content -->
                         </div>

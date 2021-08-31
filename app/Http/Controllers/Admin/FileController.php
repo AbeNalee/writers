@@ -19,7 +19,7 @@ class FileController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('admin.auth:admin');
+        $this->middleware('admin.auth:admin')->except(['index', 'show']);
     }
 
     /**
@@ -66,16 +66,16 @@ class FileController extends Controller
             $fileModel->tag = $req->tag;
             $fileModel->save();
 
-            Ghostscript::setGsPath("C:\Program Files (x86)\gs\gs9.54.0\bin\gswin32c.exe");
-            $image = new Pdf(asset($fileModel->path));
-            $image->setOutputFormat('jpg')
-                ->saveImage(storage_path('app\public\uploadImages\\' . $fileName . '.jpg'));
-
-            $fileImage = FileImage::create([
-                'name' => $fileName . '.jpg',
-                'path' => storage_path('app\public\uploadImages\\' . $fileName . '.jpg'),
-                'file_id' => $fileModel->id,
-            ]);
+//            Ghostscript::setGsPath("C:\Program Files (x86)\gs\gs9.54.0\bin\gswin32c.exe");
+//            $image = new Pdf(asset($fileModel->path));
+//            $image->setOutputFormat('jpg')
+//                ->saveImage(storage_path('app\public\uploadImages\\' . $fileName . '.jpg'));
+//
+//            $fileImage = FileImage::create([
+//                'name' => $fileName . '.jpg',
+//                'path' => storage_path('app\public\uploadImages\\' . $fileName . '.jpg'),
+//                'file_id' => $fileModel->id,
+//            ]);
 
             return back()
                 ->with('success','File has been uploaded.')

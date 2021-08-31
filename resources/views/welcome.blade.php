@@ -103,7 +103,7 @@
 
                     <div class="navbar-btn d-none d-sm-inline-block">
                         <ul>
-                            <li><a class="solid" href="#">Get in touch</a></li>
+                            <li><a class="solid page-scroll" href="#contact">Get in touch</a></li>
                         </ul>
                     </div>
                 </nav> <!-- navbar -->
@@ -113,6 +113,21 @@
 </section>
 
 <!--====== NAVBAR TWO PART ENDS ======-->
+@if ($message = Session::get('success'))
+    <div class="alert alert-success">
+        <strong>{{ $message }}</strong>
+    </div>
+@endif
+
+@if (count($errors) > 0)
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
 
 @include('components.home-section')
 

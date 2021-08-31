@@ -14,7 +14,8 @@
                 <div class="contact-wrapper form-style-two pt-115">
                     <h4 class="contact-title pb-10"><i class="lni lni-envelope"></i> Leave <span>A Message.</span></h4>
 
-                    <form id="contact-form" action="assets/contact.php" method="post">
+                    <form id="contact-form" action="{{ route('contact') }}" method="post">
+                        @csrf
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-input mt-25">
@@ -36,9 +37,9 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="form-input mt-25">
-                                    <label>Massage</label>
+                                    <label>Message</label>
                                     <div class="input-items default">
-                                        <textarea name="massage" placeholder="Massage"></textarea>
+                                        <textarea name="message" placeholder="Message"></textarea>
                                         <i class="lni lni-pencil-alt"></i>
                                     </div>
                                 </div> <!-- form input -->
@@ -46,7 +47,7 @@
                             <p class="form-message"></p>
                             <div class="col-md-12">
                                 <div class="form-input light-rounded-buttons mt-30">
-                                    <button class="main-btn light-rounded-two">Send Message</button>
+                                    <button type="submit" class="main-btn light-rounded-two">Send Message</button>
                                 </div> <!-- form input -->
                             </div>
                         </div> <!-- row -->

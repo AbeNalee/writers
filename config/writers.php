@@ -7,4 +7,6 @@ return [
     'service-tags' => [
         'Research Papers', 'Essays', 'Term Papers', 'Case Studies', 'Dissertations', 'Others'
     ],
+
+    'contact-email' => env('CONTACT_EMAIL'),
 ];
