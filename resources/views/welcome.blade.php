@@ -7,7 +7,9 @@
     <!--====== Title ======-->
     <title>Classified Writers</title>
 
-    <meta name="description" content="">
+    <meta name="title" content="Classified Writers">
+    <meta name="description" content="Classified Writers is your number one place to get all your writing needs sorted out. Writing done by classified writers provides the best quality work">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="B-T4ADA5E2PTGgqyZ62UwAYHeB0qcKeJxgnWLYTSTFk" />
 
@@ -42,8 +44,6 @@
     <!--====== Style CSS ======-->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/added.css">
-
-    <meta name="description" content="Classified Writers is your number one place to get all your writing needs sorted out. Writing done by classified writers provides the best quality work">
 
 </head>
 

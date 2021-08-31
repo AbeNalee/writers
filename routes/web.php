@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'home']);
 Route::post('/contact', [\App\Http\Controllers\ContactController::class, 'store'])->name('contact');
+Route::get('/terms-and-conditions', [\App\Http\Controllers\HomeController::class, 'terms'])->name('tacs');

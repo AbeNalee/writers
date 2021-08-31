@@ -12,7 +12,7 @@
                         <li></li>
                         <li></li>
                     </ul>
-                    <p class="text">Duis et metus et massa tempus lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ultricies, orci molestie blandit interdum. <br> <br> ipsum ante pellentesque nisl, eget mollis turpis quam nec eros. ultricies, orci molestie blandit interdum.</p>
+                    <p class="text">With an all time rating of 4.7, our clients always leave feeling satisfied with our writing. You can join the fray as we strive to provide quality writing for whatever area you're interested in.</p>
                 </div> <!-- testimonial left content -->
             </div>
             <div class="col-lg-6">
@@ -23,44 +23,25 @@
                     <div class="testimonial-content-wrapper testimonial-active">
                         <div class="single-testimonial">
                             <div class="testimonial-text">
-                                <p class="text">“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis nunc turp.”</p>
+                                <p class="text">“Excellent delivery of pure gold by this team. The research paper and summary depict what was required in the project explanation. I will use this site in future”</p>
                             </div>
                             <div class="testimonial-author d-sm-flex justify-content-between">
-                                <div class="author-info d-flex align-items-center">
-                                    <div class="author-image">
-                                        <img src="assets/images/author-1.jpg" alt="author">
-                                    </div>
-                                    <div class="author-name media-body">
-                                        <h5 class="name">Mr. Jems Bond</h5>
-                                        <span class="sub-title">CEO Mbuild Firm</span>
-                                    </div>
-                                </div>
                                 <div class="author-review">
                                     <ul class="star">
                                         <li><i class="lni lni-star-filled"></i></li>
                                         <li><i class="lni lni-star-filled"></i></li>
                                         <li><i class="lni lni-star-filled"></i></li>
                                         <li><i class="lni lni-star-filled"></i></li>
-                                        <li><i class="lni lni-star-filled"></i></li>
+                                        <li><i class="lni lni-star-half"></i></li>
                                     </ul>
-                                    <span class="review">( 7 Reviews )</span>
                                 </div>
                             </div>
                         </div> <!-- single testimonial -->
                         <div class="single-testimonial">
                             <div class="testimonial-text">
-                                <p class="text">“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis nunc turp.”</p>
+                                <p class="text">“An excellent essay was delivered just in time for my class assignment. The argumentative part gave an in-depth understanding of the topic. Great work, guys”</p>
                             </div>
                             <div class="testimonial-author d-sm-flex justify-content-between">
-                                <div class="author-info d-flex align-items-center">
-                                    <div class="author-image">
-                                        <img src="assets/images/author-2.jpg" alt="author">
-                                    </div>
-                                    <div class="author-name media-body">
-                                        <h5 class="name">Mr. Jems Bond</h5>
-                                        <span class="sub-title">CEO Mbuild Firm</span>
-                                    </div>
-                                </div>
                                 <div class="author-review">
                                     <ul class="star">
                                         <li><i class="lni lni-star-filled"></i></li>
@@ -69,24 +50,14 @@
                                         <li><i class="lni lni-star-filled"></i></li>
                                         <li><i class="lni lni-star-filled"></i></li>
                                     </ul>
-                                    <span class="review">( 7 Reviews )</span>
                                 </div>
                             </div>
                         </div> <!-- single testimonial -->
                         <div class="single-testimonial">
                             <div class="testimonial-text">
-                                <p class="text">“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis nunc turp.”</p>
+                                <p class="text">“Good work and the best communicator; they made fundamental changes that I required promptly. The term paper was designed the way I wanted. I highly recommend this team.”</p>
                             </div>
                             <div class="testimonial-author d-sm-flex justify-content-between">
-                                <div class="author-info d-flex align-items-center">
-                                    <div class="author-image">
-                                        <img src="assets/images/author-3.jpg" alt="author">
-                                    </div>
-                                    <div class="author-name media-body">
-                                        <h5 class="name">Mr. Jems Bond</h5>
-                                        <span class="sub-title">CEO Mbuild Firm</span>
-                                    </div>
-                                </div>
                                 <div class="author-review">
                                     <ul class="star">
                                         <li><i class="lni lni-star-filled"></i></li>
@@ -95,7 +66,6 @@
                                         <li><i class="lni lni-star-filled"></i></li>
                                         <li><i class="lni lni-star-filled"></i></li>
                                     </ul>
-                                    <span class="review">( 7 Reviews )</span>
                                 </div>
                             </div>
                         </div> <!-- single testimonial -->

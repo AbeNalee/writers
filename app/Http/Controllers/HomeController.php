@@ -11,4 +11,9 @@ class HomeController extends Controller
     {
         return View::make('welcome');
     }
+
+    public function terms()
+    {
+        return View::make('components.terms');
+    }
 }

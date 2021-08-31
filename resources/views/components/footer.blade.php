@@ -21,8 +21,8 @@
                     <div class="footer-link">
                         <h6 class="footer-title">Company</h6>
                         <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a class="page-scroll" href="#about">About</a></li>
+                            <li><a class="page-scroll" href="#contact">Contact</a></li>
                         </ul>
                     </div> <!-- footer link -->
                 </div>
@@ -30,19 +30,17 @@
                     <div class="footer-link">
                         <h6 class="footer-title">Services</h6>
                         <ul>
-                            <li><a href="#">Service 1</a></li>
-                            <li><a href="#">Service 2</a></li>
-                            <li><a href="#">Service 3</a></li>
+                            @foreach(config('writers.service-tags') as $service)
+                                <li>{{ $service }}</li>
+                            @endforeach
                         </ul>
                     </div> <!-- footer link -->
                 </div>
                 <div class="col-xl-2 col-lg-3 col-sm-4">
                     <div class="footer-link">
-                        <h6 class="footer-title">Help & Support</h6>
+                        <h6 class="footer-title">Legals</h6>
                         <ul>
-                            <li><a href="#">Support Center</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="{{ route('tacs') }}" target="_blank">Terms & Conditions</a></li>
                         </ul>
                     </div> <!-- footer link -->
                 </div>
