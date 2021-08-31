@@ -31,7 +31,7 @@
                         <h6 class="footer-title">Services</h6>
                         <ul>
                             @foreach(config('writers.service-tags') as $service)
-                                <li>{{ $service }}</li>
+                                <li><p style="color: #007BFF">{{ $service }}</a></li>
                             @endforeach
                         </ul>
                     </div> <!-- footer link -->
