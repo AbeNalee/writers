@@ -54,12 +54,12 @@
                 <div class="col-lg-12">
                     <div class="copyright text-center d-md-flex justify-content-between align-items-center">
                         <p class="text">Copyright © {{ date('Y') }} Classified Writers. All Rights Reserved</p>
-                        <ul class="social">
-                            <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                            <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                            <li><a href="#"><i class="lni lni-instagram-filled"></i></a></li>
-                            <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
-                        </ul>
+{{--                        <ul class="social">--}}
+{{--                            <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>--}}
+{{--                            <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>--}}
+{{--                            <li><a href="#"><i class="lni lni-instagram-filled"></i></a></li>--}}
+{{--                            <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>--}}
+{{--                        </ul>--}}
                     </div> <!-- copyright -->
                 </div>
             </div> <!-- row -->

@@ -73,6 +73,16 @@
                                     </div>
                                 </div>
                             </div> <!-- card -->
+                            <div class="card">
+                                <div class="card-header" id="headingSeven">
+                                    <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSix">What payment methods do you accept?</a>
+                                </div>
+                                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="text">We accept Cards, Paypal and Payoneer.</p>
+                                    </div>
+                                </div>
+                            </div> <!-- card -->
                         </div>
                     </div> <!-- faq accordion -->
                 </div> <!-- faq content -->

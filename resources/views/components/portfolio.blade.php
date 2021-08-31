@@ -13,9 +13,9 @@
             <div class="col-lg-3 col-md-3">
                 <div class="portfolio-menu text-center mt-50">
                     <ul>
-                        <li data-filter="*">ALL WORK</li>
+                        <li data-filter="*" class="active">ALL WORK</li>
                         @foreach(config('writers.service-tags') as $key => $service)
-                            <li data-filter="{{ '.' . strtolower(str_replace(' ', '-', $service)) }}" class="{{ $key == '0' ? 'active' : '' }}">
+                            <li data-filter="{{ '.' . strtolower(str_replace(' ', '-', $service)) }}">
                                 {{ strtoupper($service) }}
                             </li>
                         @endforeach
