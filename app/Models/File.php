@@ -10,7 +10,7 @@ class File extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name', 'path', 'tag'
+        'name', 'path', 'tag', 'file'
     ];
 
     public function image()
