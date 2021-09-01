@@ -47,7 +47,7 @@
                 </div> <!-- container -->
                 <div class="slider-image-box d-none d-lg-flex align-items-end">
                     <div class="slider-image">
-                        <img src="assets/images/slider/2.png" alt="Hero">
+                        <img src="assets/images/slider/3.png" alt="Hero">
                     </div> <!-- slider-image -->
                 </div> <!-- slider-image box -->
             </div> <!-- carousel-item -->
@@ -68,7 +68,7 @@
                 </div> <!-- container -->
                 <div class="slider-image-box d-none d-lg-flex align-items-end">
                     <div class="slider-image">
-                        <img src="assets/images/slider/3.png" alt="Hero">
+                        <img src="assets/images/slider/2.png" alt="Hero">
                     </div> <!-- slider-image -->
                 </div> <!-- slider-image box -->
             </div> <!-- carousel-item -->
@@ -89,7 +89,7 @@
                 </div> <!-- container -->
                 <div class="slider-image-box d-none d-lg-flex align-items-end">
                     <div class="slider-image">
-                        <img src="assets/images/slider/3.png" alt="Hero">
+                        <img src="assets/images/slider/5.png" alt="Hero">
                     </div> <!-- slider-image -->
                 </div> <!-- slider-image box -->
             </div> <!-- carousel-item -->
@@ -110,7 +110,7 @@
                 </div> <!-- container -->
                 <div class="slider-image-box d-none d-lg-flex align-items-end">
                     <div class="slider-image">
-                        <img src="assets/images/slider/3.png" alt="Hero">
+                        <img src="assets/images/slider/4.png" alt="Hero">
                     </div> <!-- slider-image -->
                 </div> <!-- slider-image box -->
             </div> <!-- carousel-item -->

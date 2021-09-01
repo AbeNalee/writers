@@ -23,11 +23,11 @@
                 </div> <!-- portfolio menu -->
             </div>
             <div class="col-lg-9 col-md-9">
-                <div class="row no-gutters grid mt-50">
+                <div class="row no-gutters grid mt-50 d-flex">
                     @foreach(\App\Models\File::all() as $file)
-                        <div class="col-lg-4 col-sm-6 {{ strtolower(str_replace(' ', '-', $file->tag)) }}">
+                        <div class="card col-lg-4 col-sm-6 {{ strtolower(str_replace(' ', '-', $file->tag)) }}">
                             <div class="single-portfolio">
-
+                                <a href="{{ route('file.show', $file->id) }}" target="_blank">{{ $file->title }}</a>
                             </div>
                         </div>
                     @endforeach

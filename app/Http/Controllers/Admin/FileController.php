@@ -6,6 +6,7 @@ use App\Models\File;
 use App\Models\FileImage;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\View;
 use Org_Heigl\Ghostscript\Ghostscript;
 use Spatie\PdfToImage\Pdf;
@@ -52,7 +53,8 @@ class FileController extends Controller
     {
         $req->validate([
             'file' => 'required|mimes:pdf|max:2048',
-            'tag' => 'required'
+            'tag' => 'required',
+            'title' => 'required',
         ]);
 
         $fileModel = new File;
@@ -64,6 +66,7 @@ class FileController extends Controller
             $fileModel->name = time().'_'.$req->file->getClientOriginalName();
             $fileModel->path = '/storage/' . $filePath;
             $fileModel->tag = $req->tag;
+            $fileModel->title = $req->title;
             $fileModel->save();
 
 //            Ghostscript::setGsPath("C:\Program Files (x86)\gs\gs9.54.0\bin\gswin32c.exe");
@@ -91,7 +94,7 @@ class FileController extends Controller
      */
     public function show(File $file)
     {
-        //
+        return response()->file(storage_path('/app/public/uploads/' . $file->name));
     }
 
     /**

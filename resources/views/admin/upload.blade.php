@@ -45,6 +45,9 @@
             <input type="file" name="file" class="custom-file-input" id="chooseFile">
             <label class="custom-file-label" for="chooseFile">Select file</label>
 
+            <input type="text" name="title" class="custom-control-input" id="title">
+            <label class="custom-control-label" for="title">Title</label>
+
             <select name="tag" id="tag" class="mt-5 custom-select">
                 @foreach(config('writers.service-tags') as $service)
                     <option value="{{ $service }}">{{ $service }}</option>

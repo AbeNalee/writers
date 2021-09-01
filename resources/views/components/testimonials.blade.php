@@ -26,6 +26,14 @@
                                 <p class="text">“Excellent delivery of pure gold by this team. The research paper and summary depict what was required in the project explanation. I will use this site in future”</p>
                             </div>
                             <div class="testimonial-author d-sm-flex justify-content-between">
+                                <div class="author-info d-flex align-items-center">
+                                    <div class="author-image">
+                                        <img src="assets/images/author-1.jpg" alt="author">
+                                    </div>
+                                    <div class="author-name media-body">
+                                        <h5 class="name">Mr. Greg Wynne</h5>
+                                    </div>
+                                </div>
                                 <div class="author-review">
                                     <ul class="star">
                                         <li><i class="lni lni-star-filled"></i></li>
@@ -42,6 +50,14 @@
                                 <p class="text">“An excellent essay was delivered just in time for my class assignment. The argumentative part gave an in-depth understanding of the topic. Great work, guys”</p>
                             </div>
                             <div class="testimonial-author d-sm-flex justify-content-between">
+                                <div class="author-info d-flex align-items-center">
+                                    <div class="author-image">
+                                        <img src="assets/images/author-2.jpg" alt="author">
+                                    </div>
+                                    <div class="author-name media-body">
+                                        <h5 class="name">Joel Masako</h5>
+                                    </div>
+                                </div>
                                 <div class="author-review">
                                     <ul class="star">
                                         <li><i class="lni lni-star-filled"></i></li>
@@ -58,6 +74,14 @@
                                 <p class="text">“Good work and the best communicator; they made fundamental changes that I required promptly. The term paper was designed the way I wanted. I highly recommend this team.”</p>
                             </div>
                             <div class="testimonial-author d-sm-flex justify-content-between">
+                                <div class="author-info d-flex align-items-center">
+                                    <div class="author-image">
+                                        <img src="assets/images/author-3.jpg" alt="author">
+                                    </div>
+                                    <div class="author-name media-body">
+                                        <h5 class="name">Kortney Thomas</h5>
+                                    </div>
+                                </div>
                                 <div class="author-review">
                                     <ul class="star">
                                         <li><i class="lni lni-star-filled"></i></li>
