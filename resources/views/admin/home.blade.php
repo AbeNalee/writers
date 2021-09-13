@@ -14,7 +14,9 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <div class="row m-10 p-10">
+                        <a href="{{ route('admin.files.index') }}" class="btn btn-info">Site Files</a>
+                    </div>
                 </div>
             </div>
         </div>

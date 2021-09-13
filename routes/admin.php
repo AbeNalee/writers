@@ -30,6 +30,7 @@ Route::post('password/confirm', 'Auth\ConfirmPasswordController@confirm');
 // Route::post('email/resend', 'Auth\VerificationController@resend')->name('verification.resend');
 
 Route::middleware(['admin.auth:admin'])->group(function () {
-    Route::get('/upload', 'FileController@create')->name('upload');
-    Route::post('/upload', 'FileController@store');
+    Route::resource('files', 'FileController');
+//    Route::get('/upload', 'FileController@create')->name('upload');
+//    Route::post('/upload', 'FileController@store');
 });

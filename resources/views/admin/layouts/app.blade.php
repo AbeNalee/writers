@@ -73,6 +73,11 @@
     </nav>
 
     <main class="py-4">
+        @isset($status)
+            <div class="alert alert-info">
+                {{ $status }}
+            </div>
+        @endisset
         @yield('content')
     </main>
 </div>

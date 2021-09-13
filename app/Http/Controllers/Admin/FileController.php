@@ -30,7 +30,7 @@ class FileController extends Controller
      */
     public function index()
     {
-        //
+        return View::make('admin.files.index');
     }
 
     /**
@@ -128,6 +128,8 @@ class FileController extends Controller
      */
     public function destroy(File $file)
     {
-        //
+        $file->delete();
+
+        return redirect()->back()->with('status', 'deleted successfully');
     }
 }
